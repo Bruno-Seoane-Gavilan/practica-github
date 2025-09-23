@@ -35,3 +35,20 @@ divisiónentera=var1//var2
 módulo=var1%var2
 exponenciación=var1**var2
 print("El resultado de la suma es: ", suma)
+
+
+#para usar condicionales
+if var1==var2:
+    print("var1 es igual que var2")
+else:
+    print("var1 no es igual que var2")
+
+#para usar raiz cuadrada
+import math
+raiz_cuadrada=math.sqrt(var1)
+print("La raíz cuadrada de var1 es: ", raiz_cuadrada)
+
+#para usar el número pi
+import math
+pi=math.pi
+print("El valor de pi es: ", pi)
