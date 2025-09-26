@@ -52,3 +52,14 @@ print("La raíz cuadrada de var1 es: ", raiz_cuadrada)
 import math
 pi=math.pi
 print("El valor de pi es: ", pi)
+
+#para usar el condicional
+#el condicional elif sirve para poner una condición entre el if y el else
+if var1>var2:
+    print("var1 es mayor que var2")
+elif var1<var2:
+    print("var1 es menor que var2")
+else:
+    print("var1 es igual que var2")
+
+
