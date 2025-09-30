@@ -62,4 +62,17 @@ elif var1<var2:
 else:
     print("var1 es igual que var2")
 
+#operadores de condicionales
+== igual
+!= diferente
+> mayor que
+< menor que
+>= mayor o igual que
+<= menor o igual que
+
+#operadores lógicos
+and y
+or o
+not no 
+
 
