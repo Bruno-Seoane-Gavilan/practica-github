@@ -75,4 +75,11 @@ and y
 or o
 not no 
 
+#letra.isupper() sirve para saber si una letra es mayúscula
+#letra.islower() sirve para saber si una letra es minúscula
+#letra.isnumeric() sirve para saber si una letra es un número (solo dígito)
+#letra.isalpha() sirve para saber si una letra es alfabética (solo letra)
+#letra.isalnum() sirve para saber si una letra es alfanumérica (letra o número)
+#letra.isspace() sirve para saber si una letra es un espacio en blanco
+
 
