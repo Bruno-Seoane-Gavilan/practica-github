@@ -82,4 +82,11 @@ not no
 #letra.isalnum() sirve para saber si una letra es alfanumérica (letra o número)
 #letra.isspace() sirve para saber si una letra es un espacio en blanco
 
+if letra.isupper():
+    print("La letra es mayúscula: True")
 
+#len(frase) sirve para saber la longitud de una frase o texto
+longitud=len(frase)
+
+#para que sirve el método index
+frase.index(palabra) sirve para saber la posición de una palabra en una frase
