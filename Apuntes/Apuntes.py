@@ -82,6 +82,7 @@ not no
 #letra.isalnum() sirve para saber si una letra es alfanumérica (letra o número)
 #letra.isspace() sirve para saber si una letra es un espacio en blanco
 
+
 if letra.isupper():
     print("La letra es mayúscula: True")
 
