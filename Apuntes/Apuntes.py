@@ -91,3 +91,6 @@ longitud=len(frase)
 
 #para que sirve el método index
 frase.index(palabra) sirve para saber la posición de una palabra en una frase
+
+if "." in var1:
+    print("El número es decimal")
