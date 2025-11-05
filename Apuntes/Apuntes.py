@@ -94,3 +94,8 @@ frase.index(palabra) sirve para saber la posición de una palabra en una frase
 
 if "." in var1:
     print("El número es decimal")
+
+#Bucles
+for x in range(1,10)
+for x in string
+for x in range(1,10,2)
