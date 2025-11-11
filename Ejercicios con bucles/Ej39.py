@@ -13,6 +13,6 @@ for j in range(numeros):
         total_negativos=total_negativos+1
     if float(numero_comprovado)==0:
         total_0=total_0+1
-print("La cantidad de números positivos es:")
-print("La cantidad de números negativos es:")
+print("La cantidad de números positivos es:",total_positivos)
+print("La cantidad de números negativos es:",total_negativos)
 print("La cantidad de números ceros es:",total_0)
