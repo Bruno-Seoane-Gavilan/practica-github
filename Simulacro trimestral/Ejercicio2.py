@@ -7,7 +7,7 @@ for x in range(7):
     if numero>0:
         suma_positivos=suma_positivos+numero
         if numero>100:
-            contador_cien +=1
+            contador_cien=contador_cien+1
     else:
         suma_negativos=suma_negativos+numero
 print("Suma de positivos:", suma_positivos)
