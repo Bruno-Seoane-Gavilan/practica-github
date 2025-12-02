@@ -1,7 +1,6 @@
 multiplicar=1
 contador_pares=0
 cifras=int(input("Introduce el número de cifras: "))
-
 numero=int(input("Introduce un número: "))
 
 longitud_numero=len(str(numero))
