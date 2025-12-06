@@ -1,13 +1,12 @@
-#57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa debe controlar si el usuario introduce un número no comprendido entre 1 y 5
+#57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa 
+#debe controlar si el usuario introduce un número no comprendido entre 1 y 5
 
 import random
-numero_aleatorio = random.randint(1, 5)
-numero_usuario = int(input("Adivina un número entre 1 y 5: "))
-while numero_usuario < 1 or numero_usuario > 5:
-    print("Número no válido. Inténtalo de nuevo.")
-    numero_usuario = int(input("Adivina un número entre 1 y 5: "))
-if numero_usuario == numero_aleatorio:
-    print("Número acertado")
-else:
-    print("Número no acertado")
-
+numero=random.randint(1,5)
+numero_introducido=0
+while not (numero==numero_introducido):
+    numero_introducido=int(input("Introduce un número entre 1 y 5: "))
+    if numero_introducido==numero:
+        print("Número acertado")
+    else:
+        print("Número no acertado")
