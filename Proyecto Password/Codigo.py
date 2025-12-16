@@ -1,4 +1,3 @@
-
 #Antes de pedir que imtroduzca la contraseña primero hago que printee todas las caracteristicas que tiene que tener esta contraseña
 print("Introduce una contraseña de entre 6 y 8 caracteres que cumpla con lo siguiente:")
 
@@ -28,10 +27,7 @@ else:
         error=True
     if not (password[1].islower()):
         print("Error en el caracter 2")
-<<<<<<< HEAD
-=======
         #Utilizo el error=true para que despues si al final el error es igual a false que diga que la contraseña es correcta
->>>>>>> b57fbaabd72d6fe95f4ca877affa6b65041f3fdc
         error=True
     if not (password[2].isupper()):
         print("Error en el caracter 3")
@@ -54,8 +50,5 @@ else:
             print("Error en el caracter 8")
             error=True
     if error==False:
-<<<<<<< HEAD
-=======
         #Aqui es donde dice que si error= false solo printea los errores pero no printea que la contraseña es correcta eso solo lo hará si error=false
->>>>>>> b57fbaabd72d6fe95f4ca877affa6b65041f3fdc
         print("La contraseña es correcta")
