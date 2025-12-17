@@ -47,14 +47,15 @@ for intento in range(3):
         password_incorrecto=password_incorrecto+1
 print("Contraseñas correctas:",password_correcto)
 print("Contraseñas incorrectas:",password_incorrecto)
+
 #Contraseñas para probar:
 
 #Corectas:
-#1aB*4_6&
-#5zY3/9#
-#29mN*7_
-#Ja3_6&1
-#E2f5#8/
+#abC123/#
+#789Ljk//
+#_Dtr852&
+#Nju546_*
+##741Eao#
 
 #Incorrectas:
 #bad12
