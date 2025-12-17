@@ -28,14 +28,19 @@ for intento in range(3):
             contador_simbolos=contador_simbolos+1
     if longitud_password<6 or longitud_password>8:
         error=True
+        print("Error, tiene que tener entre 6 y 8 carácteres")
     if contador_numeros<3:
         error=True
+        print("Error, tiene que tener 3 números")
     if contador_minusculas<2:
         error=True
+        print("Error, tiene que tener 2 minúsculas")
     if contador_mayusculas<1:
         error=True
+        print("Error, tiene que tener 1 mayúscula")
     if contador_simbolos<2:
         error=True
+        print("Error, tiene que tener 2 símbolos")
     if error==False:
         password_correcto=password_correcto+1
     else:
