@@ -89,7 +89,7 @@ if letra.isupper():
 #len(frase) sirve para saber la longitud de una frase o texto
 longitud=len(frase)
 
-#para que sirve el método index
+#Método index
 frase.index(palabra) sirve para saber la posición de una palabra en una frase
 
 if "." in var1:
@@ -99,3 +99,18 @@ if "." in var1:
 for x in range(1,10)
 for x in string
 for x in range(1,10,2)
+
+#Listas => se pone entre corchetes
+Lista vacia=[]
+Lista con números=[1,2,3,4,5]
+Lista mixta=[1,"Hola",2,3]
+
+Por indices: mi_lista[0](primer elemento)
+Por indices negativos: mi_lista[-1] (último elemento)
+
+USANDO for
+for elemento in mi_lista
+USANDO while
+i=0
+while i< len(mi_lista)
+print(mi_lista)
