@@ -47,13 +47,15 @@ for intento in range(3):
         password_incorrecto=password_incorrecto+1
 print("Contraseñas correctas:",password_correcto)
 print("Contraseñas incorrectas:",password_incorrecto)
-print(contador_mayusculas)
-print(contador_minusculas)
-print(contador_simbolos)
+
 #Contraseñas para probar:
 
 #Corectas:
-
+#abC123/#
+#789Ljk//
+#_Dtr852&
+#Nju546_*
+##741Eao#
 
 #Incorrectas:
 #bad12
