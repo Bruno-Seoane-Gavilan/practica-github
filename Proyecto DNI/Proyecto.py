@@ -1,4 +1,4 @@
-#pon comentarios en español explicando cada parte del código
+
 #Al principio del programa se declaran todas las variables que vamos a usar
 dni=""
 dni_resultante=[]
@@ -92,7 +92,7 @@ while opcion_menu!="6":
         print("Porcentaje de errores de número:",porcentaje_errores_numero,"%")
 #Aqui si quiere la opción 6 el programa se acaba
 
-    elif opcion_menu=="6":
+    if opcion_menu=="6":
         print("Programa finalizado.")
     else:
         print("Opción no válida. Por favor, elige una opción del 1 al 6.")
