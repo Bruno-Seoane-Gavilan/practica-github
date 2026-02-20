@@ -1,4 +1,4 @@
-lista_palabrasecreta=["uebos","regodeo","oleaginoso","ñuzco","joyel","vagido","gaznapiro","haiga","ful","acecinar"]
+lista_palabrasecreta=["albahaca","regodeo","oleaginoso","barbilampiño","joyel","orondo","eon","flor","imberbe","acecinar"]
 lista_partida=[]
 lista_ahorcado=[]
 letra=""
@@ -10,7 +10,10 @@ for x in palabra_secreta:
 print(*lista_partida)
 letra=input("")
 if letra in palabra_secreta:
+    lista_partida=[]
     for x in palabra_secreta:
         if letra==x:
             lista_partida.append(letra)
+        else:
+            lista_partida.append("_")
 print(*lista_partida)
