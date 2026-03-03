@@ -1,4 +1,4 @@
-lista_palabrasecreta=["albahaca","regodeo","oleaginoso","barbilampiño","joyel","orondo","eon","flor","imberbe","acecinar"]
+lista_palabrasecreta=["albahaca","escuadra","oleaginoso","babero","fabricar","orondo","eon","flor","imberbe","acecinar"]
 lista_partida=[]
 lista_ahorcado=["A","H","O","R","C","A","D","O"]
 errores=0
